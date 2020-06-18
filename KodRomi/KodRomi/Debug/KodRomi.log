@@ -1,0 +1,37 @@
+﻿Сборка начата 19.04.2018 22:38:03.
+     1>Проект "c:\Users\Ilya\documents\visual studio 2013\Projects\KodRomi\KodRomi\KodRomi.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\KodRomi.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\KodRomi.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt KodRomi.cpp
+         KodRomi.cpp
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(23): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(30): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(38): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(40): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(42): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(73): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(74): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(75): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(76): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(77): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(78): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(71): warning C4101: delta1: неиспользованная локальная переменная
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(71): warning C4101: ytemp1: неиспользованная локальная переменная
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(71): warning C4101: ynext1: неиспользованная локальная переменная
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(71): warning C4101: ytemp2: неиспользованная локальная переменная
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(71): warning C4101: delta2: неиспользованная локальная переменная
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(71): warning C4101: ynext2: неиспользованная локальная переменная
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(26): warning C4715: DUDX1: значение возвращается не при всех путях выполнения
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(43): warning C4715: DUDX: значение возвращается не при всех путях выполнения
+     1>c:\users\ilya\documents\visual studio 2013\projects\kodromi\kodromi\kodromi.cpp(33): warning C4715: DUDX1: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\ilya\documents\visual studio 2013\Projects\KodRomi\Debug\KodRomi.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\ilya\documents\visual studio 2013\Projects\KodRomi\Debug\KodRomi.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\ilya\documents\visual studio 2013\Projects\KodRomi\Debug\KodRomi.lib" /MACHINE:X86 Debug\KodRomi.obj
+         Debug\stdafx.obj
+         KodRomi.vcxproj -> c:\users\ilya\documents\visual studio 2013\Projects\KodRomi\Debug\KodRomi.exe
+     1>Сборка проекта "c:\Users\Ilya\documents\visual studio 2013\Projects\KodRomi\KodRomi\KodRomi.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.24
